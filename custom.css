@@ -1,0 +1,154 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: heading;
+    src: url(Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: paragraph;
+    src: url(Poppins-SemiBold.ttf);
+}
+
+/* loading */
+#load {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #E5EFF1 url('images/giphy.gif') no-repeat center;
+    z-index: 10;
+}
+
+/* navbar */
+
+.nav-item a {
+    text-decoration: none;
+    color: #c0851b !important;
+}
+
+.navbar-toggler {
+    color: #c0851b !important;
+}
+
+.nav-item a:hover {
+    color: #92691b !important;
+}
+
+#nav {
+    background-image: url(images/images.jpeg);
+    background-position: cover;
+}
+
+
+/* Fontcolor Main Heading */
+
+#h1 {
+    color: #c0851b;
+    font-family: Heading;
+    border: 3px dotted #92691b;
+    display: inline-block;
+    font-size: 50px;
+}
+
+#mainp {
+    color: #c0851b;
+    font-family: paragraph;
+}
+
+
+/* one line */
+
+#h3 {
+    background-color: #92691b;
+    color: cornsilk;
+    display: inline-block;
+    font-family: heading;
+    font-size: 30px;
+}
+
+
+/* three divider */
+
+.h5 {
+    color: #c0851b;
+    font-family: heading;
+    font-size: 15px;
+}
+
+.p {
+    font-family: paragraph;
+    color: #442f08;
+}
+
+/* customer review */
+
+#review {
+    color: #c0851b;
+    font-family: heading;
+    border: 2px dashed #442f08;
+    display: inline-block;
+}
+
+.h4 {
+    color: #92691b;
+    font-family: heading;
+    font-size: 30px !important;
+}
+
+.reviewp {
+    color: #442f08;
+    font-family: paragraph;
+}
+
+
+/* book appointment */
+
+#bookh1 {
+    display: inline-block;
+    color: cornsilk;
+    background-color: #92691b;
+    font-family: heading;
+}
+
+#submit {
+    width: 100%;
+    height: 100%;
+}
+
+/* faqs */
+
+#faqsh1 {
+    color: #92691b;
+    font-family: heading;
+    border: 2px dotted #442f08;
+    display: inline;
+}
+
+/* contact us */
+
+#contacth1 {
+    display: inline-block;
+    color: cornsilk;
+    background-color: #92691b;
+    font-family: heading;
+}
+
+.contacth5 {
+    color: #442f08;
+    font-family: paragraph;
+}
+
+a {
+    color: #442f08 !important;
+}
+
+iframe {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
